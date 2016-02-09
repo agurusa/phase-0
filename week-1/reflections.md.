@@ -38,3 +38,25 @@ It seems, then, that my time management strategy for Phase 0 includes: morning m
 *help : same as "man". Accesses the manual page for a command.
 
 #1.4 Forking and Cloning Reflection
+
+To create a new repository, or repo, first navigate to your GitHub account. Click on "new repository" in the upper right hand corner. You then have to customize this new repository by doing the following:
+
+1. Naming the repository. This makes it easy to access/understand.
+2. Determining the visibility settings. If the repository is public, anyone can view and edit your work. You can choose if they can commit. If the repository is private, you can choose who is allowed to view those files, and also who can commit.
+3. Choose a license. This is the license that tells others what they can and cannot do with your project. This is usually saved in a file in such as LICENSE.md or LICENSE.txt, so if you forget to add a license when creating a new repo, you can always add one in the document later.
+4. Click "create repository" to finish the process. This creates the repository on GitHub, but not locally.
+Sometimes users want to fork a repository instead of creating a new one. This is done if the existing project has multiple potential directions. The code can then be accessed and modified from multiple repositories, and merged separately. To fork a repository, follow the steps below:
+
+1. Navigate to the repository you want to fork.
+2. Click the "fork" button.
+3. Choose the account you'd like the forked repository sent to. This is the account that can access and modify the new repository, not the existing one.
+
+To work on repos (forked, or otherwise) you'll want to access them locally. To do this, you'll have to clone them to your computer. Follow the steps below:
+
+1. Navigate to Terminal.
+2. Navigate to the directory you'd like the cloned repository to live in. You never want a repo to be in another repo.
+3. Clone the repo using "git clone URL". In the URL section, copy and paste the repo URL. This can be found in your GitHub account, after clicking on the repo you'd like to work on.
+4. The repo should now be on your computer. Open it on Sublime by using "subl . " From here, you can view branches and the project hierarchy.
+
+I didn't have too much trouble using Git or GitHub to create new projects or fork/clone existing ones. It does take a little time to understand the hierarchical representation of the project on the 3 different interfaces: Terminal, GitHub, and Sublime. Also, I understand that you can make changes to repos using Git on Terminal, but I'm not exactly sure how to do that on Sublime.
+
