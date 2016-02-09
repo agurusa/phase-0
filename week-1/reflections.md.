@@ -1,0 +1,40 @@
+#1.1 Think About Time Reflection
+
+There are many different time management and productivity theories and strategies that can be used to increase efficiency. Most of these include both an emotional/introspective element, as well as a physical/external reaction. Meditation seemed to be the most mentally taxing and reflective strategy to employ, while the pomodoro technique is the most physically restrictive. Using these techniques together, while also understanding the benefits of checklists, a minimally viable product, and acknowledgment of our different learning styles, we can begin to achieve small goals. The constant proof of our ability to achieve these small goals is what we need to change and develop new habits, and concurrently, a growth mindset. The hope is that, over time, we can begin to enter a state of flow as our habits become enjoyable.
+
+The pomodoro technique is an example of Time Boxing. When we employ any method of Time Boxing, we first restrict work to a certain amount of time. Once that amount of time has passed, we stop work, and evaluate work progress. This feedback gives us the opportunity to reflect on efficiency, short term goals, and, if applicable, team roles. This is useful for Phase 0 because we can determine how much time is needed to complete typical tasks in DBC and plan our study habits. We can create specific and achievable goals during remote study; these new habits can continue to be employed during Phase 1. Furthermore, the use of Time Boxing is helpful in peer partnering tasks. If we create a Time Box for an assignment, we can avoid frustration by feeling rushed/pressured or slowed/held back by a partner. The Time Box allows us to work on an assignment for a specific amount of time together, and take time separately to think about the implications of our work and come up with new ideas.
+
+I currently manage my time through the use of checklists and Time Boxing. I give myself a certain amount of time to work on tasks, and check items off my to-do list as they are completed. This technique has generally worked for me because I can 1) prove to myself that I am capable and 2) convince myself that I'm on the right path; however, I find myself feeling "trapped" after continuous work in this manner. After a while of checklist items building up, I lose motivation to complete items and end up "giving up". I believe that this is due to defining my self worth by my productivity. Over a long period of time, this leads to self doubt and a breakdown of the growth mindset that I'm hoping to cultivate.
+
+To stop this from happening, I will have to employ some of the new techniques I learned about. I think meditation is a simple and quick habit to add into my life. I will use an existing behavior as a trigger to build this habit. For example, after I brush my teeth in the morning, I will meditate for 5 minutes. During this meditation, I will "divorce my self worth from my productivity." I will probably have to add this simple activity into my checklist, so I can prove to myself that I'm 1) effectively employing a new strategy, and 2) convince myself that this is a necessary addition to my day.
+
+This easy way of building new habits is something I will use throughout the program; sometimes, I reflect on negative thought patterns or inefficiencies in my work flow during Time Boxing. Tiny habits seem to be a measurable and specific way to change behavior, without becoming overwhelming.
+
+It seems, then, that my time management strategy for Phase 0 includes: morning meditation, the creation and completion of measurable goals (checklists), Time Boxing, and the addition of tiny habits when necessary.
+
+#1.2 The Command Line Reflection
+
+
+1. A shell is simply a processor that allows a user to execute commands to either access files or change them. Bash is the shell for the GNU operating system. Understanding bash allows us to tap into the potential in having a shell for a machine, and thus access the true capabilities of our computers.
+
+2. The most challenging exercise for me was Exercise 15. This employed the use of cat, as well as piping and redirection. I don't completely understand the functionality of cat, and combining it with redirection made it seem more confusing. I also don't understand the strength of cat and why it can be a useful tool.
+
+3. I was able to successfully use all the commands with a little practice.
+
+4. The most important commands seem to be touch and export. Touch allows us to make an empty file, and export allows us to set new variables. Touch seems like an easy way to quickly create files and store data/ text. Export gives us the chance to use the programming capabilities of bash, and not just the accessibility.
+
+5. Commands:
+
+*pwd : print working directory
+*ls: list items in directory
+*mv : move a file/directory, or rename file/directory
+*cd: change working directory
+*../ : change working directory to one directory higher in the hierarchy
+*touch : create a new empty file
+*mkdir : make new directory
+*less : page through a file (must be exited using "q")
+*rmdir : remove directory
+*rm : remove file
+*help : same as "man". Accesses the manual page for a command.
+
+#1.4 Forking and Cloning Reflection
