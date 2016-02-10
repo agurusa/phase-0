@@ -1,0 +1,45 @@
+1. Paste a link to your [USERNAME].github.io repository.
+
+http://agurusa.github.io/
+
+2. Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
+
+A repository is a place that stores projects as you work on them. If you want to work on a new project, be sure to create a new repository on GitHub. This can be accomplished by navigating to your GitHub account and clicking on the "+" sign in the upper right hand corner. Then, click on "New Repository."
+
+From here, you'll have to decide on a few properties for your new repository. Come up with a name so you, or people you choose, can access this repository later. You can create a description.
+
+You then have to decide if you want everyone to be able to view your project, or just people of your choosing. If you decide you want a public repo, anyone can see it. You'll still get to decide who gets to make changes. If you want a private repo, you'll decide who can view it, and who can make changes.
+
+If you'd like to work on your repo, you'll have to clone it so it can exist with the files on your computer. Initialize the README.
+
+You have some options when prompted about adding a license. Each license (or lack thereof) has different implications for your project. Some of these licenses are described in detail below.
+
+From there, just click on, "Create repository" to create this repo on GitHub.
+
+To clone it onto your computer, you'll have to work with Terminal, or the command line. First, determine where you want your repo to live. It will be a project folder, so don't clone it into any existing repos. Find the folder you'd like to work under, then type the command "git clone URL" where "URL" is where your repo lives on GitHub. Your new repo now lives on your computer!
+
+3. Describe what open source means.
+
+Open source software is when programmers share their code willingly and allow anyone to modify it. It is when we open our creations up to a community, like GitHub. Closed source software, like Microsoft and Apple, do not allow users to change their code and customize their software.
+
+
+4. What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
+
+Open source makes me curious about the pros/cons of the sharing economy we've all become used to in San Francisco. Everyone seems to benefit from cheaper and more accessible software, and it is ideal to be able to customize progams as we see fit. It can be a powerful tool that drives innovation.
+However, could this potentially hurt programmers that innovate without job security? With no benefits or guarantees to the people doing the leg work, can larger corporations take advantage of FOSS?
+
+5. Assess the importance of using licenses.
+
+Licenses are important because they protect both the original developer and any future developers. They detail exactly what is and is not allowed with the OSS, and the original creator still gets credit for their work.
+
+Different licenses are applicable depending on the intended use of the software. For example, Creative Commons licenses are generally used for design projects. The original project can be modified and distributed, but only for non commercial purposes. Alternatively, GNU GPL licenses allows a project to be both modified and distributed, for either non commercial, or commercial purposes.
+
+6. What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
+
+It was nice to quickly and easily be able to create a new repository on GitHub, clone it, work on it locally, and push it remotely. I had a lot of trouble changing files and pushing them back to GitHub, then deleting the temporary branch that existed on my computer. I realized that I was simply forgetting to pull the updated version back to my master branch on my computer. I didn't struggle with it during this challenge, but I'm still a bit confused about why there seems to be 2 sublime files: there is a ".md." version, and a ".md" vesion. The text copy is the ".md." file, and the ".md" file is empty. Still not sure what is going on here.
+
+7. Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+
+I did look up a few resources on open source software and how it has impacted the sharing economy. This resource didn't give me too much information, but it was nice to see how other countries are responding to OSS:
+
+[open source software link] (http://united-kingdom.taylorwessing.com/download/article-opensource.html)
