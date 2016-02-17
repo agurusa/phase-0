@@ -35,7 +35,7 @@ git pull (checks to verify that you're working on the most recent version of the
 
 Working stage:
 git checkout -b new-branch (makes a new branch)
-git filethatyoureworkingon.md (makes a new file, if necessary)
+touch filethatyoureworkingon.md (makes a new file, if necessary)
 subl filethatyoureworkingon.md. (opens file in sublime)
 ----make changes in sublime and save---
 
