@@ -55,3 +55,33 @@ header p{
   border-bottom:1px solid black;
   font-size:10px;
 }
+/*
+Reflection:
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+A link to an external file should include the following:
+<link rel="stylesheet" type="text/css" href="location of the file>
+This references the file's location and attaches it to the html document. It does not need a closing tag. It goes inside the <head> tag.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+The hardest element to position was the table. We were having a little trouble figuring out exactly how to get the rows ad columns set up properly with the unordered list. We ended up deciding on 1 row and 2 columns. We then couldn't get the table to go accross the entire page; when we couldn't figure out exactly what was going on, we added a border to the table so we could see the columns.
+
+Other than that, we really didn't have any trouble moving things around. Because the page was set up so simply with a header, body, and footer, all we had to do was add a few sections with ids to space things out properly. Everything else was positioned without having to use float, etc. We used vertical-align and text-align to center things in the table and the text on the page.
+
+What CSS did you use to modify the element style?
+
+We used a lot of text-align and vertical-align to set things up in the table. We also used color:"#" to set up the hexadecimal color for the font and links. We used border-bottom:1px solid black to put lines on the page. We also used font-size to change the size of the font and font-weight to make the font bold.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why?
+
+We used ids. We used ids instead of classes because the sections of our html that needed to be separately formatted were a one-time thing. For example, the H in Hathaway had to be styled differently than anything else in the page. We gave it an id so we could style it efficiently.
+Classes are used if different elements need the same formatting; if you have to specify a format for different elements, use classes.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I definitely think our site had a cleaner code base. They set up their table with many trs and 2 tds in each tr. It was a little unclear as to why they didn't set it up the way we did. It was also a lot more confusing with multiple divs because each one had to have a separate class and id. Ours simple had a header, table, and footer.
+
+
+*/
