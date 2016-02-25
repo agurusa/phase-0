@@ -5,12 +5,14 @@
       <title></title>
     </head>
     <body>
+    <header>
      <h1>Gits using Git:</h1>
 
       <h2>How Beginners Begin Understanding Version Control</h2>
 
       <h3>02/10/16</h3>
-
+    </header>
+    <article>
       <p>If you’re currently a programming git, you’ll want to start understanding version control. Why, you ask? Because, unless you’re superhuman, you’re going to make some mistakes over the course of your project. Even if you are superhuman, you’ll probably want to look back and admire your handiwork at each step of your project. This brings us to the practicality of version control.</p>
 
       <p>Version control is: how you manage changes to your project over the course of time.</p>
@@ -58,5 +60,6 @@
       <p>Recently, GitHub fell offline and programmers took their first ever “snow day.” This sent the world of remote VCS a-spinning, and Twitter a-Tweeting</p>
 
       <p>The magical cloud has its problems, too. Keeping an up-to-date local repo is generally a good idea, as you can continue to add and commit new versions without pushing your project remote.</p>
+      </article>
     </body>
   </html>
