@@ -1,7 +1,6 @@
 **What does puts do?**
 
-The command ```ruby puts``` returns nil and prints the output on the console on a new line. This is different than ```ruby
-p``` and ```ruby print``` because p will both return the output and print it on the console, while print will return nil and print it on the same line on the console.
+The command ```puts``` returns nil and prints the output on the console on a new line. This is different than ```p``` and ```print``` because p will both return the output and print it on the console, while print will return nil and print it on the same line on the console.
 
 **What is an integer? What is a float?**
 
@@ -51,6 +50,9 @@ Local variables specifically are those that are declared inside a function, whil
 This challenge was good. I did like the review, but I'm really looking forward to learning more about what we can do with Ruby.
 
 The solution files can be found here:
+
 [Defining variables](https://github.com/agurusa/phase-0/blob/master/week-4/defining-variables.rb)
+
 [Simple string methods](https://github.com/agurusa/phase-0/blob/master/week-4/simple-string.rb)
+
 [Local variables and basic arithmetical operations](https://github.com/agurusa/phase-0/blob/master/week-4/basic-math.rb)
