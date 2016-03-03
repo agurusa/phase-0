@@ -1,0 +1,41 @@
+header {
+  background-color:blue;
+  border-radius: 10px;
+  color:white;
+}
+
+section {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.column-1 {
+  display: inline-block;
+  width:49%;
+  vertical-align:top;
+}
+
+.column-2 {
+  display: inline-block;
+  width:49%;
+  vertical-align: top;
+}
+
+footer {
+  background-color:red;
+  border-radius: 10px;
+  color:white;
+}
+h1{
+  font-family: "Pt Sans Narrow";
+}
+h2{
+  font-family: "Pt Sans";
+}
+
+details summary::-webkit-details-marker {
+  background: red;
+  color: #fff;
+}
