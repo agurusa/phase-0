@@ -19,13 +19,12 @@
 #end
 
 def smallest_integer(list_of_nums)
-  list_of_nums.each do |nums|
-    if (nums-1) < nums
-      p (nums-1)
-    else
-      p nums
+  minimum = list_of_nums[0]
+  list_of_nums.each do |x|
+    if x < minimum
+       minimum = x
     end
   end
+  p minimum
 end
 
-smallest_integer([1, 2, 3])
