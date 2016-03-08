@@ -1,3 +1,4 @@
+#Went to office hours for multiple solutions
 
 # Longest String
 
@@ -31,3 +32,63 @@ def longest_string(list_of_words)
     p words_and_lengths[longest_length]
   end
 end
+
+#refactored version
+# def longest_string(list_of_words)
+  # if list_of_words == []
+    # nil
+  # else
+
+
+    # longest = list_of_words[0]
+#
+    # list_of_words.each do |word|
+      # longest = word if longest.length < word.length
+    # end
+
+    # p longest
+
+# def longest_string(list_of_words)
+  # if list_of_words == []
+    # nil
+  # else
+#
+#
+    # longest = list_of_words[0]
+    # i=0
+    # for word in list_of_words
+    # while i < list_of_words.length
+      # longest = word if longest.length < word.length
+      # i += 1
+    # end
+#
+    # p longest
+
+# def longest_string(list_of_words)
+  # if list_of_words == []
+    # nil
+  # else
+#
+
+    # longest = list_of_words[0]
+    # for word in list_of_words
+    # list_of_words.length.times do |i|
+      # longest = list_of_words[i] if longest.length < list_of_words[i].length
+    # end
+
+# def longest_string(list_of_words)
+#   if list_of_words == []
+#     nil
+#   else
+
+# #     if list_of_words.length == 1
+# #       return length_of_words[0]
+# #     else
+#     longest = list_of_words[0]
+#     i = 1
+#     while i < list_of_words.length
+#       longest = list_of_words[i] if longest.length < list_of_words[i].length
+#       i += 1
+#     end
+
+#     p longest
