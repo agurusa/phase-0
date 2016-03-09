@@ -19,11 +19,29 @@ def acct_groups(people, group_max, group_min)
     group_hash.each do |person,group|
       group_hash[person] = rand(range)
     end
-    range.each do |x|
-      y = group_hash.select{|person,group| group == x}.keys
-      puts y.join(", ") + " will be in Group #{x}"
-      puts y.length.to_s + " Group number #{x}"
-    end
+    x = group_hash.sort_by{|person,group| group}
+    p x
+
+    # ary = []
+    # a = 0
+    # until x[a][1] == nil
+    #   if x[a][1] == x[a+1][1]
+    #     p "same group"
+    #     ary << x[a][0]
+    #     a+= 1
+    #   else
+    #     p "different group"
+    #     a+=1
+    #   end
+    #   p ary
+    # end
+
+
+    # range.each do |x|
+    #   y = group_hash.select{|person,group| group == x}.keys
+    #   puts y.join(", ") + " will be in Group #{x}"
+    #   puts y.length.to_s + " Group number #{x}"
+    # end
 end
 
 
