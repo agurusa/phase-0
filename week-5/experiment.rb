@@ -15,10 +15,12 @@ def acct_groups(people, group_max, group_min)
     (1..x).each do |i|
       ary << hash.values.count(i)
     end
+    p ary
     new_ary = ary.sort
-    p new_ary
     break if new_ary[0] > group_min && new_ary[-1] < (group_max + 2)
   end
+
+  group_hash = {}
 
   (1..x).each do |i|
     group_ary = []
@@ -27,9 +29,12 @@ def acct_groups(people, group_max, group_min)
         group_ary << k
       end
     end
+    group_hash[i] = group_ary
     group_string = group_ary.join(', ')
     p "The people in group #{i} are #{group_string}"
   end
+
+  puts "The entire class is made up of #{group_hash}"
 end
 
 people_array = [
@@ -102,4 +107,4 @@ people_array = [
   "victoria solorzano"
 ]
 
-acct_groups(people_array, 5, 3)
+acct_groups(people_array, 7, 3)
