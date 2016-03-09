@@ -93,3 +93,13 @@ people_array = [
 ]
 
 acct_groups(people_array, 5, 3)
+
+
+# determine the number of groups you need
+# create an empty hash
+# for each person in the array, assign them a random group number
+# put those person/group pairs in a hash
+# count how many people are in each group
+# if there aren't enough people in a group, add more people to it
+# if there are too many people in a group, change their group number
+# return the groups
