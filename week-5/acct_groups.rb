@@ -19,11 +19,29 @@ def acct_groups(people, group_max, group_min)
     group_hash.each do |person,group|
       group_hash[person] = rand(range)
     end
-    range.each do |x|
-      y = group_hash.select{|person,group| group == x}.keys
-      puts y.join(", ") + " will be in Group #{x}"
-      puts y.length.to_s + " Group number #{x}"
-    end
+    x = group_hash.sort_by{|person,group| group}
+    p x
+
+    # ary = []
+    # a = 0
+    # until x[a][1] == nil
+    #   if x[a][1] == x[a+1][1]
+    #     p "same group"
+    #     ary << x[a][0]
+    #     a+= 1
+    #   else
+    #     p "different group"
+    #     a+=1
+    #   end
+    #   p ary
+    # end
+
+
+    # range.each do |x|
+    #   y = group_hash.select{|person,group| group == x}.keys
+    #   puts y.join(", ") + " will be in Group #{x}"
+    #   puts y.length.to_s + " Group number #{x}"
+    # end
 end
 
 
@@ -75,3 +93,13 @@ people_array = [
 ]
 
 acct_groups(people_array, 5, 3)
+
+
+# determine the number of groups you need
+# create an empty hash
+# for each person in the array, assign them a random group number
+# put those person/group pairs in a hash
+# count how many people are in each group
+# if there aren't enough people in a group, add more people to it
+# if there are too many people in a group, change their group number
+# return the groups
