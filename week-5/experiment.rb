@@ -1,9 +1,10 @@
 def acct_groups
+
   hash = {}
   puts "Who is in the class? Separate each person with a comma, but do not hit enter between people (eg. Aarthi Gurusami, Abid Ramay, Adam Zmudzinski)"
   everyone = gets.chomp
   people = everyone.split(', ')
-  puts "About how many people do you want in each group?"
+  puts "There are a total of #{people.length} people in the class. About how many people do you want in each group?"
   group_max = gets.chomp.to_i
   puts "What is the minimum amount of people you want in each group?"
   group_min = gets.chomp.to_i
