@@ -68,4 +68,15 @@ p mode(%w(OMG OMG OMG WE WE WE SUCK ARE ARE ARE COOL COOL COOL ! ! ! ))
 
 
 
-# 4. Reflection
+# # 4. Reflection
+# Which data structure did you and your pair decide to implement and why?
+# We used a hash because we needed to store both the item from the input array and the number that serves as the count. This is a key/value pair, as each key is unique, and each is associated with it's value.
+
+# Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
+# I thought we did this really successfully. It was nice to do it with a partner, because we had to be able to articulate our thoughts to each other properly before the driver was able to write down anything that was articulate. We started by describing our overall understanding of the challenge, then the individual steps we would need to implement.
+
+# What issues/successes did you run into when translating your pseudocode to code?
+# We actually were able to translate our pseudocode really easily. We broke it down into really small steps so writing the code was just finding the Ruby syntax for the verbiage.
+
+# What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+# We used the .each method. This was also the best method that we found when we were refactoring. We thought about using a while loop, but didn't want to use a counter to keep track of the index value.
