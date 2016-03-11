@@ -60,27 +60,27 @@ def pad(array, min_size, value = nil) #non-destructive
   new_array
 end
 
-# 4. Reflection
-Were you successful in breaking the problem down into small steps?
+# # 4. Reflection
+# Were you successful in breaking the problem down into small steps?
 
-We were successful. We spoke about the problem from an overall standpoint, then broke it down into pieces.
+# We were successful. We spoke about the problem from an overall standpoint, then broke it down into pieces.
 
-Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+# Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
 
-It was pretty easy to write the code once we had the steps written down. We both had different methods that we suggested, but once it was written down we could discuss how well each method fit our needs.
+# It was pretty easy to write the code once we had the steps written down. We both had different methods that we suggested, but once it was written down we could discuss how well each method fit our needs.
 
-Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+# Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
 
-  It was successful. We did have some issues using <<, as we had to remember that it was destructive and for part two we were supposed to write a non-destructive method.
+#   It was successful. We did have some issues using <<, as we had to remember that it was destructive and for part two we were supposed to write a non-destructive method.
 
-When you refactored, did you find any existing methods in Ruby to clean up your code?
+# When you refactored, did you find any existing methods in Ruby to clean up your code?
 
-We ended up using .map in our refactored version. It made it so we could use a destructive method on a new array that was created using the old array.
+# We ended up using .map in our refactored version. It made it so we could use a destructive method on a new array that was created using the old array.
 
-How readable is your solution? Did you and your pair choose descriptive variable names?
+# How readable is your solution? Did you and your pair choose descriptive variable names?
 
-I think our code is pretty readable. We used descriptive variables because it was easier to read and edit our code if there were problems. We also tried to keep our spacing in check so we could review our code quickly and determine if we were missing end statements, etc.
+# I think our code is pretty readable. We used descriptive variables because it was easier to read and edit our code if there were problems. We also tried to keep our spacing in check so we could review our code quickly and determine if we were missing end statements, etc.
 
-What is the difference between destructive and non-destructive methods in your own words?
+# What is the difference between destructive and non-destructive methods in your own words?
 
-Destructive methods are those that change the variable they are acting on. Nondestructive methods are those that maintain the status of the variable they act on. For example, some methods will find and return a value in an array, while others will find and delete that value out of the array.
+# Destructive methods are those that change the variable they are acting on. Nondestructive methods are those that maintain the status of the variable they act on. For example, some methods will find and return a value in an array, while others will find and delete that value out of the array.
