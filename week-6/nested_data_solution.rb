@@ -85,10 +85,10 @@ p number_array
 
 # # Bonus:
 
-startup_names =
-["bit",
-  ["find", "fast",
-    ["optimize", "scope"]]]
+# startup_names =
+# ["bit",
+#   ["find", "fast",
+#     ["optimize", "scope"]]]
 
 # p startup_names[1][2][0]
 
@@ -102,3 +102,13 @@ startup_names =
  #  p element + "ly"
  # end
 # end
+
+#Reflection:
+# What are some general rules you can apply to nested arrays?
+# The first index value that is being accessed is the outer most array. If you are trying to access a value that doesn't exist in the array, it will return nil. To get to the inner most nest, you have to use the same amount of index values as number of nests.
+
+# What are some ways you can iterate over nested arrays?
+# You can iterate by nesting your iterating methods. For example, to iterate through the inner nests, you first have to iterate through the outer nests, then determine if there is an inner nest to iterate through.
+
+# Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+# We used .kind_of? which was a boolean statement that determined if the object was another nested Array. This was a good option because it was both readable and provided a true/false output that gave us the option to iterate over the internal array.
