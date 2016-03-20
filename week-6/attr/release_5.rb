@@ -7,9 +7,7 @@
 class Profile
 # first let's finish refactoring this code
 # note that there is a way to add all of the variables like :age on one line, how would we do that?
-  attr_accessor :age
-  attr_accessor :name
-  attr_accessor :occupation
+  attr_accessor :age, :name, :occupation
 
   def initialize
     @age = 27
