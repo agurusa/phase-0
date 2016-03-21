@@ -114,24 +114,22 @@ class CreditCard
     @even_numbers = []
     @credit_card_number.each_with_index do |number,i|
       if i.even?
-        @even_numbers<<number
+        @even_numbers<< (number *2)
       end
     end
   end
 
   def sum_all
     @sum_of_numbers = 0
-    step = 2
-    @credit_card_number.each_with_index do |number,index|
-      if index % step == 1
+    @credit_card_number.each_with_index do |number,i|
+      if i.odd?
          @sum_of_numbers += number
       end
     end
     @even_numbers.each do |number|
+      another_sum = 0
       if number > 9
         even_number_array = number.to_s.split("")
-        even_number_array #["1" , "0"]
-        another_sum =0
         even_number_array.map! do |digits|
           digits = digits.to_i
           another_sum += digits
@@ -141,24 +139,24 @@ class CreditCard
         @sum_of_numbers += number
       end
     end
-    p @sum_of_numbers
   end
 
   def check_card
     double
     sum_all
-    if @sum_of_numbers % 10 == 0
-      p true
-    else
-      p false
-    end
+    @sum_of_numbers % 10 == 0 ? (true) : (false)
   end
 
 end
 
-p credit_card_number = CreditCard.new(1234567890123456)
-credit_card_number.double
-
 
 
 # Reflection
+# What was the most difficult part of this challenge for you and your pair?
+# My partner and I had so much trouble refactoring! This challenge was really tough, and there were a lot of things to consider. We couldn't figure out how to separate the integer value into an array of separate integers; we ended up having to turn it into a string, separate each character, then turn it back into an integer. We had to do this multiple times, and couldn't figure out how to refactor that part of the code.
+
+# What new methods did you find to help you when you refactored?
+# The ternary method was helpful for the final class method that we defined. We also used .odd? and .even? to determine which index value we were on.
+
+# What concepts or learnings were you able to solidify in this challenge?
+# We really had to think about what values we were iterating through, and whether or not that was possible based on the input. For example, we wanted to iterate through each digit in the input integer, but first we had to convert it to something that had a predefined .each method.
