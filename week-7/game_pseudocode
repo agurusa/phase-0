@@ -1,0 +1,62 @@
+ // Design Basic Game Solo Challenge
+
+// This is a solo challenge
+
+// Mission description:
+// Overall mission:
+// You must keep your puppy alive long enough that it becomes a dog.
+
+// Goals:
+// -Feed the puppy enough times a day
+// -Take the puppy on walks
+// -Play with the puppy
+// -Train the puppy
+// -Do not let the puppy run away
+// -Do not let the puppy get hit by a car
+// -Do not let the puppy get attacked by another puppy
+
+// Characters:
+// -Car
+// -Other puppy
+// -Puppy
+
+// Objects:
+// -Car
+// -Other puppy
+// -Puppy(full tummy, bathroom, happiness, intelligence, health)
+
+// Functions:
+// -feed
+// -walk
+// -play
+// -train
+// -yell
+
+// // Pseudocode
+// -declare a puppy object that has all the puppy properties.
+// -have all of those properties decrease over time.
+//   -IF health is all the way down
+//     -puppy dies
+//   -IF happiness is all the way down
+//     -puppy runs away
+//   -IF full tummy or bathroom is all the way down
+//     -happiness goes down faster
+//   -IF intelligence is all the way down
+//     -puppy is too dumb to listen when you yell
+
+// -when you yell at the puppy
+//   -happiness goes down
+//   -puppy won't run away
+
+// -when you feed the puppy, have the full tummy go back up.
+// -when you walk the puppy, have the bathroom go back up.
+// -when you play with the puppy, have happiness go back up.
+// -when you train the puppy, have intelligence go back up.
+
+// -IF the puppy is hit by a car
+//   -health is all the way down
+// -when the puppy plays with other puppy:
+//   -IF other puppy attacks:
+//     -make health go down
+//   -ELSE:
+//     -make happiness go up
