@@ -1,0 +1,69 @@
+
+div{
+  margin: 2px 2px 2px 2px;
+}
+body{
+  background-color:#ffffcc;
+  font-family:"Pt Sans Narrow";
+}
+.buttons{
+  float:right;
+  width:30%;
+}
+button{
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  font-family:"Pt Sans Narrow";
+  font-size:20px;
+  background-color:#f9e6ff;
+  color:#3d3d5c;
+}
+
+#start{
+  background-color:#b3ffd9;
+}
+
+
+.puppy{
+  height:20em;
+  width:60%;
+  background-image:url("pup.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
+#container{
+  float:right;
+  height:1em;
+  width:30%;
+  clear:right;
+  font-size:2em;
+}
+
+.health{
+  height:3em;
+  width:200px;
+}
+
+#full{
+  height:1em;
+  background-color:#b3ffd9;
+}
+#bathroom{
+  height:1em;
+  background-color:#80ffbf;
+}
+#happiness{
+  height:1em;
+  background-color:#4dffa6;
+}
+#intelligence{
+  height:1em;
+  background-color:#1aff8c;
+}
+#health{
+  height:1em;
+  background-color:#00e673;
+}
+
