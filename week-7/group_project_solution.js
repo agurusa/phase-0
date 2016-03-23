@@ -1,7 +1,14 @@
 
 // Pseudocode:
 
-// Create a method that accepts a group of whole numbers as the argument.
+// Input: A group of whole numbers
+// Output:
+//   A. An integer value
+//   B. A number value (either float or integer)
+//   C. A number value (either float or integer)
+
+// Steps:
+
 // A. Create a method called sum that adds up all the numbers.
 //   1. Create a counter called sum. Set it equal to 0.
 //   2. Iterate over the group of numbers. Add each number to sum.
@@ -23,5 +30,5 @@
 //       -divide the amount of numbers by 2.
 //       -take a slice of 2 numbers out of the group at that index position.
 //       -add the numbers in that slice together.
-//       -divide that sum by 2.
+//       -divide that sum by 2.0
 //       -return that number.
