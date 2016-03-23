@@ -3,8 +3,13 @@ div{
   margin: 2px 2px 2px 2px;
 }
 body{
-  background-color:#ffffcc;
+  background-image:url("puppybackground.png");
+  background-size:contain;
+  top;background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position:bottom;
   font-family:"Pt Sans Narrow";
+  background-color:#a2e1de;
 }
 .buttons{
   float:right;
@@ -27,7 +32,7 @@ button{
 
 .puppy{
   height:20em;
-  width:60%;
+  width:40%;
   background-image:url("pup.png");
   background-repeat:no-repeat;
   background-size:contain;
@@ -35,10 +40,9 @@ button{
 
 #container{
   float:right;
-  height:1em;
   width:30%;
   clear:right;
-  font-size:2em;
+  font-size:1em;
 }
 
 .health{
