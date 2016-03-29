@@ -38,7 +38,7 @@
 ![Image of schema]
 (schema.png)
 
-<!-- Reflection:
+Reflection:
 What are databases for?
 
 Databases are for organizing collections of information so data can be easily retrieved and modified.
@@ -62,4 +62,3 @@ You can also sort/group things using commands like
 WHERE
 GROUP BY
 ORDER BY
- -->
