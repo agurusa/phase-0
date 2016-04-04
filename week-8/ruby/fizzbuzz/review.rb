@@ -49,3 +49,15 @@ end
 
 
 # Reflection
+
+# What concepts did you review or learn in this challenge?
+
+# I reviewed control flow. I also reviewed map! and destructive vs non-destructive methods.
+
+# What is still confusing to you about Ruby?
+
+# I'm pretty solid on Ruby. I think this challenge went really well. If anything, I'd say that I would have liked to find a way to change the original array and not have to use the else element = element statement.
+
+# What are you going to study to get more prepared for Phase 1?
+
+# I am going to study a bit more about ternary operaters, and also try to understand implicit return values.
