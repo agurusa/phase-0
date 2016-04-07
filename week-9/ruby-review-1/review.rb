@@ -154,4 +154,10 @@ p dr_evils_cipher("qmrm#qi,*mj^m#iziv^pswx#csy#m^hsr'x%orsa^alex@m%asyph^hs.
 p dr_evils_cipher("alc@qeoi*e$xvmppmsr^alir#ai*gsyph%qeoi...#fmppmsrw?")
 
 # # Reflection
+# What concepts did you review in this challenge?
+# I reviewed a lot about regexes and the .split and .join methods.
+# What is still confusing to you about Ruby?
+# I'm a little confused about how I would have changed this into a better algorithm. I was hoping to find an easy way to deal with the character difference.
+# What are you going to study to get more prepared for Phase 1?
+# I want to study a bit more about regexes. I think this would have made it a lot easier to replace certain parts of the code.
 # # Keep your reflection limited to 10-15 minutes!
